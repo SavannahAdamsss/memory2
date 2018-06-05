@@ -1,4 +1,3 @@
-
 exports.seed = function(knex, Promise) {
   return knex("coffee").del().then(() => {
       return knex("coffee").insert([{
